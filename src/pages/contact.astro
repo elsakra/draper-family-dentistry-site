@@ -1,0 +1,142 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Contact from '../components/Contact.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout 
+  title="Contact Draper Family Dentistry | San Ramon, CA | 925-866-0160" 
+  description="Contact Draper Family Dentistry in San Ramon, CA. Call 925-866-0160 or email Office@DFDental.com to schedule your appointment. Located at 3130 Crow Canyon Place Suite 195."
+>
+  <Header />
+  <main>
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-sage-50 to-white py-20 lg:py-32">
+      <div class="container mx-auto px-4">
+        <div class="text-center max-w-4xl mx-auto">
+          <h1 class="text-4xl lg:text-5xl font-bold text-sage-800 mb-6">
+            Contact Us Today
+          </h1>
+          <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+            Ready to schedule your appointment or have questions about our services? We're here to help! Contact Draper Family Dentistry today.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a 
+              href="tel:925-866-0160" 
+              class="bg-dental-blue hover:bg-dental-blue-dark text-white px-8 py-4 rounded-full font-semibold text-sm uppercase tracking-wide transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1"
+            >
+              Call Now: 925-866-0160
+            </a>
+            <a 
+              href="mailto:Office@DFDental.com" 
+              class="border-2 border-dental-blue text-dental-blue hover:bg-dental-blue hover:text-white px-8 py-4 rounded-full font-semibold text-sm uppercase tracking-wide transition-all duration-300"
+            >
+              Email Us
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Contact Section -->
+    <Contact />
+
+    <!-- Map & Directions Section -->
+    <section class="py-20 bg-sage-50">
+      <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <!-- Map Placeholder -->
+          <div class="bg-sage-200 rounded-2xl h-96 flex items-center justify-center">
+            <div class="text-center">
+              <svg class="w-16 h-16 text-sage-500 mx-auto mb-4" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
+              </svg>
+              <p class="text-sage-700 font-medium">Interactive Map</p>
+              <p class="text-sage-600 text-sm">3130 Crow Canyon Place Suite 195<br>San Ramon, CA 94583</p>
+            </div>
+          </div>
+          
+          <!-- Directions -->
+          <div>
+            <h2 class="text-3xl font-bold text-sage-800 mb-6">Directions & Parking</h2>
+            
+            <div class="space-y-6">
+              <div>
+                <h3 class="text-xl font-semibold text-sage-800 mb-3">Our Location</h3>
+                <p class="text-gray-600 mb-4">
+                  We're conveniently located in San Ramon, easily accessible from major highways and local roads. Our office is situated in a professional building with ample parking.
+                </p>
+                <div class="bg-white rounded-lg p-4 border border-sage-200">
+                  <p class="font-medium text-sage-800">3130 Crow Canyon Place</p>
+                  <p class="text-gray-600">Suite 195</p>
+                  <p class="text-gray-600">San Ramon, CA 94583</p>
+                </div>
+              </div>
+              
+              <div>
+                <h3 class="text-xl font-semibold text-sage-800 mb-3">Parking Information</h3>
+                <div class="space-y-2">
+                  <div class="flex items-center">
+                    <div class="w-3 h-3 bg-dental-blue rounded-full mr-3"></div>
+                    <span class="text-gray-700">Free parking available</span>
+                  </div>
+                  <div class="flex items-center">
+                    <div class="w-3 h-3 bg-dental-blue rounded-full mr-3"></div>
+                    <span class="text-gray-700">Handicap accessible spaces</span>
+                  </div>
+                  <div class="flex items-center">
+                    <div class="w-3 h-3 bg-dental-blue rounded-full mr-3"></div>
+                    <span class="text-gray-700">Well-lit parking area</span>
+                  </div>
+                  <div class="flex items-center">
+                    <div class="w-3 h-3 bg-dental-blue rounded-full mr-3"></div>
+                    <span class="text-gray-700">Close to building entrance</span>
+                  </div>
+                </div>
+              </div>
+              
+              <div>
+                <h3 class="text-xl font-semibold text-sage-800 mb-3">Public Transportation</h3>
+                <p class="text-gray-600">
+                  Our office is accessible by public transportation. Several bus routes serve the area, and we're located near major transit connections.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Emergency Contact Section -->
+    <section class="py-20 bg-white">
+      <div class="container mx-auto px-4">
+        <div class="bg-gradient-to-r from-red-50 to-red-100 rounded-2xl p-8 lg:p-12">
+          <div class="text-center">
+            <div class="w-16 h-16 bg-red-500 rounded-full flex items-center justify-center mx-auto mb-6">
+              <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"></path>
+              </svg>
+            </div>
+            <h2 class="text-3xl font-bold text-red-800 mb-4">Dental Emergency?</h2>
+            <p class="text-lg text-red-700 mb-6">
+              If you're experiencing a dental emergency outside of our regular office hours, please call our emergency line or visit your nearest emergency room for severe cases.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+              <a 
+                href="tel:925-866-0160" 
+                class="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 hover:shadow-lg"
+              >
+                Emergency Line: 925-866-0160
+              </a>
+            </div>
+            <p class="text-sm text-red-600 mt-4">
+              For life-threatening emergencies, call 911 immediately.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>

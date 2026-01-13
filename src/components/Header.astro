@@ -1,0 +1,92 @@
+---
+---
+
+<!-- Top Bar -->
+<div class="bg-sage-50 border-b border-sage-100 py-2">
+  <div class="container mx-auto px-4">
+    <div class="flex justify-between items-center text-sm text-sage-700">
+      <div class="flex space-x-6">
+        <span>✓ Free Consultation Available</span>
+        <span>✓ Comprehensive Family Care</span>
+        <span>✓ Modern Dental Technology</span>
+      </div>
+      <div class="hidden md:flex items-center space-x-4">
+        <span>📞 925-866-0160</span>
+        <span>📧 Office@DFDental.com</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Main Navigation -->
+<header class="bg-white shadow-sm sticky top-0 z-50 backdrop-blur-sm bg-white/95">
+  <div class="container mx-auto px-4">
+    <div class="flex justify-between items-center py-4">
+      <!-- Logo -->
+      <a href="/" class="flex items-center space-x-3 hover:opacity-80 transition-opacity">
+        <img 
+          src="https://res.cloudinary.com/dil14r8je/image/upload/v1768292499/auto-site-builder/Draper%20Family%20Dentistry/image_8.png" 
+          alt="Draper Family Dentistry Logo" 
+          class="h-12 w-auto"
+        />
+        <div>
+          <div class="text-xl font-bold text-sage-800">DRAPER</div>
+          <div class="text-sm text-sage-600 -mt-1">FAMILY DENTISTRY</div>
+        </div>
+      </a>
+      
+      <!-- Desktop Navigation -->
+      <nav class="hidden md:flex items-center space-x-8">
+        <a href="/" class="text-sage-700 hover:text-sage-900 font-medium transition-colors">HOME</a>
+        <a href="/invisalign" class="text-sage-700 hover:text-sage-900 font-medium transition-colors">Invisalign</a>
+        <a href="/resources" class="text-sage-700 hover:text-sage-900 font-medium transition-colors">Resources</a>
+        <a href="/our-team" class="text-sage-700 hover:text-sage-900 font-medium transition-colors">Our Team</a>
+        <a href="/contact" class="text-sage-700 hover:text-sage-900 font-medium transition-colors">Contact</a>
+      </nav>
+      
+      <!-- CTA Button -->
+      <div class="flex items-center space-x-4">
+        <a 
+          href="tel:925-866-0160" 
+          class="bg-dental-blue hover:bg-dental-blue-dark text-white px-6 py-3 rounded-full font-semibold text-sm uppercase tracking-wide transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5"
+        >
+          BOOK NOW
+        </a>
+        
+        <!-- Mobile Menu Button -->
+        <button 
+          id="mobile-menu-button"
+          class="md:hidden p-2 text-sage-700 hover:text-sage-900 transition-colors"
+          aria-label="Toggle mobile menu"
+        >
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+    
+    <!-- Mobile Navigation -->
+    <nav id="mobile-menu" class="md:hidden hidden border-t border-sage-100 py-4">
+      <div class="flex flex-col space-y-4">
+        <a href="/" class="text-sage-700 hover:text-sage-900 font-medium transition-colors py-2">HOME</a>
+        <a href="/invisalign" class="text-sage-700 hover:text-sage-900 font-medium transition-colors py-2">Invisalign</a>
+        <a href="/resources" class="text-sage-700 hover:text-sage-900 font-medium transition-colors py-2">Resources</a>
+        <a href="/our-team" class="text-sage-700 hover:text-sage-900 font-medium transition-colors py-2">Our Team</a>
+        <a href="/contact" class="text-sage-700 hover:text-sage-900 font-medium transition-colors py-2">Contact</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<script>
+  // Mobile menu toggle
+  const mobileMenuButton = document.getElementById('mobile-menu-button');
+  const mobileMenu = document.getElementById('mobile-menu');
+  
+  if (mobileMenuButton && mobileMenu) {
+    mobileMenuButton.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  }
+</script>

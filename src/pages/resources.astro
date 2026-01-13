@@ -1,0 +1,310 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout 
+  title="Dental Resources & Patient Information | Draper Family Dentistry" 
+  description="Access patient forms, insurance information, and helpful dental resources at Draper Family Dentistry in San Ramon, CA. Learn about our services and prepare for your visit."
+>
+  <Header />
+  <main>
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-sage-50 to-white py-20 lg:py-32">
+      <div class="container mx-auto px-4">
+        <div class="text-center max-w-4xl mx-auto">
+          <h1 class="text-4xl lg:text-5xl font-bold text-sage-800 mb-6">
+            Patient Resources & Information
+          </h1>
+          <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+            Everything you need to know about your dental care at Draper Family Dentistry. From patient forms to insurance information, we're here to make your visit as smooth as possible.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Patient Forms Section -->
+    <section class="py-20 bg-white">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl lg:text-4xl font-bold text-sage-800 mb-4">
+            Patient Forms
+          </h2>
+          <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+            Save time during your visit by completing these forms in advance. All forms are secure and confidential.
+          </p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="group bg-sage-50 rounded-xl p-8 hover:shadow-lg transition-all duration-300 hover:-translate-y-2">
+            <div class="w-16 h-16 bg-dental-blue rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+              <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clip-rule="evenodd"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-sage-800 mb-3">New Patient Form</h3>
+            <p class="text-gray-600 mb-4">
+              Complete medical and dental history form for new patients. Required for your first visit.
+            </p>
+            <a href="/contact" class="text-dental-blue font-medium hover:text-dental-blue-dark transition-colors">
+              Download Form →
+            </a>
+          </div>
+          
+          <div class="group bg-sage-50 rounded-xl p-8 hover:shadow-lg transition-all duration-300 hover:-translate-y-2">
+            <div class="w-16 h-16 bg-dental-blue rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+              <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M4 4a2 2 0 00-2 2v1h16V6a2 2 0 00-2-2H4z"></path>
+                <path fill-rule="evenodd" d="M18 9H2v5a2 2 0 002 2h12a2 2 0 002-2V9zM4 13a1 1 0 011-1h1a1 1 0 110 2H5a1 1 0 01-1-1zm5-1a1 1 0 100 2h1a1 1 0 100-2H9z" clip-rule="evenodd"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-sage-800 mb-3">Insurance Information</h3>
+            <p class="text-gray-600 mb-4">
+              Provide your insurance details and authorization for benefits verification.
+            </p>
+            <a href="/contact" class="text-dental-blue font-medium hover:text-dental-blue-dark transition-colors">
+              Download Form →
+            </a>
+          </div>
+          
+          <div class="group bg-sage-50 rounded-xl p-8 hover:shadow-lg transition-all duration-300 hover:-translate-y-2">
+            <div class="w-16 h-16 bg-dental-blue rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+              <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V4a2 2 0 00-2-2H6zm1 2a1 1 0 000 2h6a1 1 0 100-2H7zm6 7a1 1 0 01-1 1H8a1 1 0 110-2h4a1 1 0 011 1zm-1 4a1 1 0 100-2H8a1 1 0 100 2h4z" clip-rule="evenodd"></path>
+              </svg>
+            </div>
+            <h3 class="text-xl font-semibold text-sage-800 mb-3">Medical History Update</h3>
+            <p class="text-gray-600 mb-4">
+              Update your medical history and current medications for existing patients.
+            </p>
+            <a href="/contact" class="text-dental-blue font-medium hover:text-dental-blue-dark transition-colors">
+              Download Form →
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Insurance & Financial Section -->
+    <section class="py-20 bg-sage-50">
+      <div class="container mx-auto px-4">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 class="text-3xl lg:text-4xl font-bold text-sage-800 mb-6">
+              Insurance & Financial Options
+            </h2>
+            <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+              We work with most major insurance plans and offer flexible payment options to make quality dental care accessible for everyone.
+            </p>
+            
+            <div class="space-y-4 mb-8">
+              <div class="flex items-start space-x-3">
+                <div class="w-6 h-6 bg-dental-blue rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                  </svg>
+                </div>
+                <span class="text-gray-700">Most major insurance plans accepted</span>
+              </div>
+              <div class="flex items-start space-x-3">
+                <div class="w-6 h-6 bg-dental-blue rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                  </svg>
+                </div>
+                <span class="text-gray-700">Flexible payment plans available</span>
+              </div>
+              <div class="flex items-start space-x-3">
+                <div class="w-6 h-6 bg-dental-blue rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                  </svg>
+                </div>
+                <span class="text-gray-700">CareCredit financing options</span>
+              </div>
+              <div class="flex items-start space-x-3">
+                <div class="w-6 h-6 bg-dental-blue rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                  </svg>
+                </div>
+                <span class="text-gray-700">Cash and credit card payments accepted</span>
+              </div>
+            </div>
+            
+            <a 
+              href="/contact" 
+              class="inline-flex items-center bg-dental-blue hover:bg-dental-blue-dark text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 hover:shadow-lg transform hover:-translate-y-0.5"
+            >
+              Verify Insurance Benefits
+              <svg class="w-5 h-5 ml-2" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+              </svg>
+            </a>
+          </div>
+          
+          <div class="bg-white rounded-2xl p-8 shadow-lg">
+            <h3 class="text-2xl font-semibold text-sage-800 mb-6">Accepted Insurance Plans</h3>
+            <div class="grid grid-cols-2 gap-4 text-sm text-gray-600">
+              <div>• Delta Dental</div>
+              <div>• Blue Cross Blue Shield</div>
+              <div>• Cigna</div>
+              <div>• Aetna</div>
+              <div>• MetLife</div>
+              <div>• Guardian</div>
+              <div>• Humana</div>
+              <div>• United Healthcare</div>
+              <div>• Principal</div>
+              <div>• Anthem</div>
+              <div>• And many more...</div>
+            </div>
+            
+            <div class="mt-6 p-4 bg-sage-50 rounded-lg">
+              <p class="text-sm text-gray-600">
+                <strong>Don't see your insurance?</strong> Contact us to verify coverage. We work with most major dental insurance providers.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Preparation Tips Section -->
+    <section class="py-20 bg-white">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl lg:text-4xl font-bold text-sage-800 mb-4">
+            Preparing for Your Visit
+          </h2>
+          <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+            Here's what to expect and how to prepare for your appointment at Draper Family Dentistry.
+          </p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div>
+            <h3 class="text-2xl font-semibold text-sage-800 mb-6">What to Bring</h3>
+            <div class="space-y-4">
+              <div class="flex items-start space-x-3">
+                <div class="w-6 h-6 bg-dental-blue rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                  </svg>
+                </div>
+                <span class="text-gray-700">Valid photo ID (driver's license or state ID)</span>
+              </div>
+              <div class="flex items-start space-x-3">
+                <div class="w-6 h-6 bg-dental-blue rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                  </svg>
+                </div>
+                <span class="text-gray-700">Insurance cards (dental and medical)</span>
+              </div>
+              <div class="flex items-start space-x-3">
+                <div class="w-6 h-6 bg-dental-blue rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                  </svg>
+                </div>
+                <span class="text-gray-700">List of current medications</span>
+              </div>
+              <div class="flex items-start space-x-3">
+                <div class="w-6 h-6 bg-dental-blue rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                  </svg>
+                </div>
+                <span class="text-gray-700">Previous dental X-rays (if available)</span>
+              </div>
+              <div class="flex items-start space-x-3">
+                <div class="w-6 h-6 bg-dental-blue rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                  </svg>
+                </div>
+                <span class="text-gray-700">Completed patient forms</span>
+              </div>
+            </div>
+          </div>
+          
+          <div>
+            <h3 class="text-2xl font-semibold text-sage-800 mb-6">First Visit Expectations</h3>
+            <div class="space-y-4">
+              <div class="flex items-start space-x-3">
+                <div class="w-6 h-6 bg-dental-blue rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                  </svg>
+                </div>
+                <span class="text-gray-700">Comprehensive oral examination</span>
+              </div>
+              <div class="flex items-start space-x-3">
+                <div class="w-6 h-6 bg-dental-blue rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                  </svg>
+                </div>
+                <span class="text-gray-700">Digital X-rays (if needed)</span>
+              </div>
+              <div class="flex items-start space-x-3">
+                <div class="w-6 h-6 bg-dental-blue rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                  </svg>
+                </div>
+                <span class="text-gray-700">Discussion of treatment options</span>
+              </div>
+              <div class="flex items-start space-x-3">
+                <div class="w-6 h-6 bg-dental-blue rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                  </svg>
+                </div>
+                <span class="text-gray-700">Personalized treatment plan</span>
+              </div>
+              <div class="flex items-start space-x-3">
+                <div class="w-6 h-6 bg-dental-blue rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <svg class="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                  </svg>
+                </div>
+                <span class="text-gray-700">Insurance and payment discussion</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="py-20 bg-sage-50">
+      <div class="container mx-auto px-4">
+        <div class="bg-gradient-to-r from-sage-100 to-white rounded-2xl p-8 lg:p-12 text-center">
+          <h2 class="text-3xl lg:text-4xl font-bold text-sage-800 mb-4">
+            Have Questions?
+          </h2>
+          <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+            Our friendly team is here to help with any questions about your visit, insurance, or treatment options.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a 
+              href="tel:925-866-0160" 
+              class="bg-dental-blue hover:bg-dental-blue-dark text-white px-8 py-4 rounded-full font-semibold text-sm uppercase tracking-wide transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1"
+            >
+              Call Us: 925-866-0160
+            </a>
+            <a 
+              href="/contact" 
+              class="border-2 border-dental-blue text-dental-blue hover:bg-dental-blue hover:text-white px-8 py-4 rounded-full font-semibold text-sm uppercase tracking-wide transition-all duration-300"
+            >
+              Contact Us Online
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>
